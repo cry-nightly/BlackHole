@@ -8,7 +8,7 @@ An Open-Source Music Player App for all your needs!
 [![Build](https://github.com/Sangwan5688/BlackHole/actions/workflows/flutter.yml/badge.svg)](https://github.com/Sangwan5688/BlackHole/actions/workflows/flutter.yml)
 [![Translation-Status](https://hosted.weblate.org/widgets/blackhole/-/translations/svg-badge.svg)](https://hosted.weblate.org/engage/blackhole/)
 
-### Don't forget to :star: the repo
+### Don't forget to :star: the repo! 
 
 [![GitHub stars](https://img.shields.io/github/stars/shad0wrider/BlackHole.svg?style=social&label=Star)](https://github.com//Sangwan5688/BlackHole) ![GitHub forks](https://img.shields.io/github/forks/Sangwan5688/BlackHole.svg?style=social&label=Forks) ![GitHub followers](https://img.shields.io/github/followers/Sangwan5688.svg?style=social&label=Follow)
 
