@@ -15,16 +15,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v4
 
       # Setup Java environment in order to build the Android app.
-      - uses: actions/setup-java@v1
+      - uses: actions/setup-java@v4
         with:
           java-version: ${{env.JAVA_VERSION}}
           cache: "gradle"
 
       # Gradle cache for faster builds
-      - uses: actions/cache@v2
+      - uses: actions/cache@v4
         with:
           path: |
             ~/.gradle/caches
@@ -34,7 +34,7 @@ jobs:
             ${{ runner.os }}-gradle-
 
       # Setup the flutter environment.
-      - uses: subosito/flutter-action@v2
+      - uses: subosito/flutter-action@v4
         with:
           channel: ${{env.FLUTTER_CHANNEL}}
           cache: true
