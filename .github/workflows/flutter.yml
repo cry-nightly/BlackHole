@@ -7,7 +7,6 @@ on:
 
 env:
   JAVA_VERSION: "12.x"
-  DISTRIBUTION: "zulu" 
   FLUTTER_CHANNEL: "stable"
   PROPERTIES_PATH: "./android/key.properties"
 
@@ -22,6 +21,7 @@ jobs:
       - uses: actions/setup-java@v5
         with:
           java-version: ${{env.JAVA_VERSION}}
+          distribution: "zulu" 
           cache: "gradle"
 
       # Gradle cache for faster builds
